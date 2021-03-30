@@ -1,0 +1,51 @@
+1)What is React.js
+- Js Library for building UI (front end FrameWork)
+- React runs on client as a SPA(Single Page Application)
+  but can be used to build full stack apps by communicating with a server/API
+- Can also be used with PHP Laravel
+
+2)Why to use React.js
+- Structure view layer of your application
+- Reusable components with their own state
+- JSX(JavaScript Syntax Extension) ..it's JavaScript but formatted like HTML
+    Dynamic markup --- can write Dynamic HTML
+    So no need to separate the markup and the logic
+- Interactive UI's - using virtual DOM -- NO NEED OF RELOAD
+
+3) Components
+- UI is thought in terms of component
+- In this we have created components using Functions and Hooks
+- Components can take in Props (Parameters)
+- Components can have "STATE" which is an object that determines
+  how a component renders and behave -- this makes a component Dynamic
+  eg - Component for Collapsible menu
+     - It can have open and close state
+     - So we can have State Object value of which can be true or false
+
+4) React Hooks
+- React Hooks are functions that let us HOOK into React State
+  and lifecycle features from function components
+  Some Hooks
+  - useState  - Returns a stateful value and a function to update it
+  - useEffect - Perform side effects in function components
+
+5)The way it works is that we insert a component into a particular div
+   -A component can be inside another component
+   eg - app component is inserted into the div with id root in index.html
+        using index.js
+
+6)The return inside the App function of App.js looks like HTML but
+  It's actually JSX
+  in JSX we use className instead of class
+    and  htmlFor instead of  for
+
+7)Idea is to reuse the same component with different input props
+
+8)using npm run build -- everything that is present inside build folder
+is deployed and not the folder inside src/components
+
+9)In this project we are using a fake server using json server
+It behaves as if we are using  Node.js backend
+
+
+
